@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 def main():
     # ask for user name
-    user_input = input("Hi, what is your name?")
+    user_input = input("Hi, what is your name? \n ")
 
     # ask for day of week 
-    day = input("What day of the week is it?")
+    day = input("What day of the week is it? \n ")
 
     # print out full statement
     print("Hello, " + user_input + "!" + " Happy " + day + "!" )
