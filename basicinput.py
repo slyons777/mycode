@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+
+"""Sarina Lyons | sarina.lyons@tlgcohort.com
+   Input Challenge: Shebang, input, print..."""
+
 def main():
     # ask for user name
     user_input = input("Hi, what is your name? \n ")
