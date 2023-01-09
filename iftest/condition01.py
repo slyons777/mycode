@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+"""Sarina Lyons | sarina.lyons@tlgcohort.com
+   Testing IF conditionals"""
+
 # create the string hostname
 hostname = "MTG"
 # test logic with the `if` statement
