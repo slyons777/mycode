@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Alta3 Research | RZFeeser
+"""Sarina Lyons | sarina.lyons@tlgcohort.com
    Conditionals - strings test true"""
 
 ipchk = "192.168.0.1"
