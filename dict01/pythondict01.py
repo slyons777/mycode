@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-"""Understanding dictionaries
-   {key: value, key:value, ...} """
+
+""" Sarina Lyons | sarina.lyons@tlgcohort.com
+    Understanding dictionaries
+    {key: value, key:value, ...} """
 
 def main():
     """runtime function"""

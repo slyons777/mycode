@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
-"""Understanding dictionaries
-   {key: value, key:value, ...}
-   using the del keyword with a dict
-   adding and removing values from the dict"""
+"""Sarina Lyons | sarina.lyons@tlgcohort.com
+   Understanding dictionaries"""
 
 def main():
     """runtime function"""
@@ -13,7 +11,7 @@ def main():
     ## display the entire dictionary
     print(switch)
 
-    ## proove that switch is indeed a dictionary
+    ## proove that switch is in the dictionary
     print(type(switch))
 
     ## display parts of the dictionary
@@ -21,10 +19,7 @@ def main():
     print( switch["ip"] )          # displays "10.0.1.1"
 
     ## request a 'fake' key
-    # print( switch["lynx"] )   # Be sure to comment out this line,
-                                # or your program will CONTINUE to fail!
-                                # if a KEY is requested that does not exist,
-                                # an ERROR will be thrown!
+    # print( switch["lynx"] )   # Be sure to comment out this line
 
     ## request a 'fake' key with .get() method
     print( "First test - .get()" )
