@@ -1,4 +1,4 @@
-Learning about Python. This is a group of exercises completed over a span of two weeks as a part of Amazon's Apprenticeship training program via TLG.
+Currently learning about Python! This is a group of exercises completed over a span of two weeks as a part of Amazon's Apprenticeship training program via TLG.
 
 Fun facts about Python:
 Python was developed a hobby project by Guido Van Rossum in December 1989, while he was looking for a hobby project to keep him occupied in the week 
