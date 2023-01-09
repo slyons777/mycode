@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Review of try and except logic | Alta3 Research"""
+"""Sarina Lyons | sarina.lyons@tlgcohort.com
+   Review of try and catch logic"""
 
 # Start with an infinite loop
 while True:

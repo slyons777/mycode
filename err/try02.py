@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Catching specific errors | Alta3 Research"""
+"""Sarina Lyons | sarina.lyons@tlgcohort.com
+   Catching specific errors"""
 
 # Start with an infinite loop
 while True:

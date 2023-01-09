@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""try except and else | Alta3 Research"""
+"""Sarina Lyons | sarina.lyons@tlgcohort.com
+   Try except and else"""
 
 # Start with an infinite loop
 while True:

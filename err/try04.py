@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""try except else and finally | Alta3 Research"""
+"""Sarina Lyons | sarina.lyons@tlgcohort.com
+   Try except else and finally"""
 
 # python standard library
 import uuid
