@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Alta3 Research | RZFeeser
-   print() - display data to std out"""
+"""Sarina Lyons | sarina.lyons@tlgcohort.com
+   Collecting user input()"""
 
 # below is a function containing our code
 def main():
@@ -15,4 +15,5 @@ def main():
     vendor = input("Please include the vendor name: ")
     print(vendor)
 # this calls main
+
 main()

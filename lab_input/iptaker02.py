@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Alta3 Research | RZFeeser
+"""Sarina Lyons | sarina.lyons@tlgcohort.com
    print() - concatenate vs print a series of items"""
 
 def main():
