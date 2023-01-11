@@ -56,6 +56,19 @@ def main():
     itemsdf.to_excel("pokemonitems.xlsx", index=False)
 
     print("Gotta catch 'em all!")
+    
+
+    # CUSTOMIZATION
+    # export a list of pokemon
+    url = 'https://pokeapi.co/api/v2/pokemon'
+    response = requests.get(url)
+    data = response.json()
+
+    # Use the 'results' key to extract the list of Pokemon
+    pokemon_list = data['results']
+
+    # Convert the list of Pokemon to a DataFrame
+    df = pd.DataFrame(pokemon_list)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Pass in a word to search\
