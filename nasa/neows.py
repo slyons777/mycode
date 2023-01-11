@@ -14,6 +14,16 @@ def returncreds():
     nasacreds = "api_key=" + nasacreds.strip("\n")
     return nasacreds
 
+
+    startdate = ""
+    while startdate == "":
+       startdate = input("What is the start date YYY-MM-DD?")
+
+    ## update the date
+    startdate = "start_date=" + startdate
+
+    urltolookup = f'{NEOURL}{startdate}&{nasacreds}'
+
 # this is our main function
 def main():
     ## first grab credentials
