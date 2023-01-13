@@ -15,9 +15,9 @@ app.secret_key = "any random string"
 @app.route("/")
 def index():
   ## if the key "username" has a value in session
-  if "username" in session:
+  if "username" in session and "age" in session:
     username = session["username"]
-    return "Logged in as " + username + "<br>" + \
+    return "Logged in as " + username + "Age is: " + age + "<br>" + \
       "<b><a href = '/logout'>click here to log out</a></b>"
 
   ## if the key "username" does not have a value in session
@@ -33,12 +33,14 @@ def login():
       ## request.form["xyzkey"]: use indexing if you know the key exists
       ## request.form.get("xyzkey"): use get if the key might not exist
       session["username"] = request.form.get("username")
+      session["age"] = request.form.get("age")
       return redirect(url_for("index"))
 
    ## return this HTML data if you send us a GET
    return """
    <form action = "" method = "post">
       <p><input type = text name = username></p>
+      <p><input type = number = age><p>
       <p><input type = submit value = Login></p>
    </form>
   """
