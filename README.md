@@ -1,4 +1,4 @@
-# Heading level 1 Alta3 Research - Python & Linux
+# Alta3 Research - Python & Linux
 Currently learning about Python! This is a group of exercises completed over a span of two weeks as a part of Amazon's Apprenticeship training program via TLG.
 
 Fun facts about Python:
