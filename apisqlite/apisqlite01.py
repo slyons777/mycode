@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Sarina Lyonsi || sarina.lyons@gmail.com
+""" Sarina Lyons || sarina.lyons@gmail.com
 Gather data returned by various APIs published on OMDB, and cache in a local SQLite DB
 """
 
@@ -74,6 +74,7 @@ def main():
             2) Search for Movies Containing String, and by Type
             3) Search for Movies Containing String, and by Year
             4) Search for Movies Containing String, and by Type and Year
+            5) Display database
             99) Exit""")
 
             answer = input("> ") # collect an answer for testing
